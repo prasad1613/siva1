@@ -1,0 +1,12 @@
+server>
+    <id>releases</id>
+    <username>admin</username>
+    <password>Vara@123</password>
+ </server>
+ ...
+ <mirror>
+    <id>releases</id>
+    <name>releases</name>
+    <url>http://192.168.43.116:8081/#admin/repository/repositories:releases</url>
+    <mirrorOf>*</mirrorOf>
+  </mirror>
